@@ -7,7 +7,6 @@ cd kakaopay-docker
 </pre>
 ### Run
 <pre>
-docker push wh56789/kakaopay-docker
-docker run -p 80:80 -v /home/ec2-user/bsh/file:/var/www/html bsh-ex
-cd kakaopay-docker
+docker pull wh56789/kakaopay-docker
+docker run -p 80:80 -v /home/kakaopay-docker/file:/var/www/html wh56789/kakaopay-docker
 </pre>

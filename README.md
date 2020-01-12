@@ -1,12 +1,26 @@
-# kakao pay 사전과제
-### Installation
+# kakaopay-docker
+
+### 사용 서비스
 <pre>
-cd /home
-git clone https://github.com/suhyunback100/kakaopay-docker.git
-cd kakaopay-docker
+Docker          : version 18.09.9-ce
+docker-compose  : version 1.21.2
+gradle          : Gradle 5.1
+java            : 1.8.0_232
+curl
 </pre>
+
 ### Run
 <pre>
-docker pull wh56789/kakaopay-docker
-docker run -p 80:80 -v /home/kakaopay-docker/file:/var/www/html wh56789/kakaopay-docker
+devops.sh 사용법
+Web application deploy control shell
+
+Usage:
+  devops.sh [COMMAND]
+  devops.sh -h|--help
+
+Commands:
+  start                 Full run of the container environment
+  stop                  stop the entire container environment
+  restart               Restart the entire container environment
+  deploy                Zero downtime deployment of web applications
 </pre>

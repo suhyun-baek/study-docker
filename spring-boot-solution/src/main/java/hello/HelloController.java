@@ -14,7 +14,7 @@ public class HelloController {
 	try{ 
 	    System.out.println( InetAddress.getLocalHost().getHostName() ); 
             System.out.println( InetAddress.getLocalHost().getHostAddress() );
-            return InetAddress.getLocalHost().getHostName() + "now-01"; 
+            return InetAddress.getLocalHost().getHostName() + "now-02"; 
         }
         catch( UnknownHostException e ){
             e.printStackTrace(); 

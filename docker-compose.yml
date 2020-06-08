@@ -22,6 +22,7 @@ services:
 
     spring-boot-solution-01:
         build: .
+        image: ${DOCKER_USER_ID}/test01-spring
         expose:
           - 8080
         networks:
@@ -37,6 +38,7 @@ services:
 
     spring-boot-solution-02:
         build: .
+        image: ${DOCKER_USER_ID}/test01-spring
         expose:
           - 8080
         networks:
